@@ -1,0 +1,97 @@
+.head {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 30px;
+  height: 30px;
+  background-color: black;
+  padding-block: 20px;
+}
+.logo {
+  color: aliceblue;
+}
+.list {
+  color: white;
+  list-style: none;
+  font-size: 1.5rem;
+  gap: 30px;
+  display: flex;
+  cursor: pointer;
+  flex-direction: row;
+}
+.footer {
+  padding-top: 10px;
+  border-top: 1px solid black;
+}
+.center {
+  text-align: center;
+}
+.services {
+  display: flex;
+  justify-content: space-around;
+}
+.Home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 95vh;
+  background-color: blanchedalmond;
+}
+.title {
+  font-size: 3rem;
+  text-decoration: underline;
+}
+.para {
+  font-size: 1.5rem;
+}
+.btn {
+  padding: 20px;
+  color: white;
+  background-color: black;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+.About-us {
+  height: 30vh;
+  display: flex;
+  border: 2px solid black;
+}
+.about_img {
+  width: 50%;
+  /* background-size: cover; */
+  /* background-position: center; */
+}
+.about_h1 {
+  color: red;
+  font-size: 2.5rem;
+  text-align: center;
+}
+.Services {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.title_ser{
+    font-size: 1.8rem;
+    /* text-decoration: underline;  */
+}
+.about_img{
+    height: 30vh;
+    background-size: cover;
+    width: 50%;
+    background-position: center;
+}
+.title_head{
+    font-size: 5rem;
+}
+.client{
+    display: flex;
+    justify-content: center;
+    height: 30vh;
+    gap: 30px;
+}
+.img{
+    height: 15vh;
+}
